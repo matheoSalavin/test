@@ -1,0 +1,101 @@
+/* STYLE DE TOUTE LA PAGE */
+body {
+    font-family: Arial, sans-serif; /* Choix de la police d'écriture */
+    background-color: #f4f4f9;      /* Couleur grise claire pour le fond de l'écran (les couleurs sont défini sous forme héxadécimal avec les deux premiers caractère qui donne l'intentité de rouge
+    les deux d'après l'intensité de vert et les deux derniers l'intensité de bleu (RVB) */
+    color: #333333;                 /* Couleur du texte gris très foncé */
+    margin: 0;                      /* Colle la page tout en haut et tout à gauche */
+    padding: 20px;                  /* Crée un espace pour que le CV ne touche pas les bords de l'écran */
+}
+
+/* LE BLOC DU CV */
+.main-content {
+    margin: 0 auto;           /* Met automatiquement le CV au milieu de l'écran */
+    background-color: #ffffff; /* Le fond du CV est tout blanc, comme une feuille */
+    padding: 30px;            /* Crée un espace vide à l'intérieur pour que le texte ne colle pas aux bords */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajoute une ombre légère autour du CV */
+}
+
+/* LE HAUT DU CV (nom et coordonnées) */
+.header {
+    border-bottom: 2px solid #0056b3; /* Dessine une ligne bleue sous les infos */
+    padding-bottom: 20px;             /* Éloigne le texte de la ligne bleue */
+    margin-bottom: 30px;              /* Éloigne la ligne bleue de la suite du CV */
+}
+
+.header h1 {
+    color: #0056b3;     /* Écrit le prénom et le nom en bleu */
+    margin: 0 0 5px 0;  /* Rapproche le nom du texte juste en dessous */
+    font-size: 28px;    /* Écrit le nom en gros */
+}
+
+.subtitle {
+    font-size: 18px;    /* Écrit le sous-titre étudiant en BTS SIO  un peu plus petit que le nom */
+    font-style: italic; /* Penche le texte */
+    color: #666666;     /* Écrit en gris clair */
+    margin: 0 0 15px 0; /* Crée un espace sous ce texte */
+}
+
+/* Style pour la liste des coordonnées */
+.header ul {
+    list-style-type: none; /* Enlève les points noirs devant le mail ou le numéro de téléphone */
+    padding: 0;            /* Aligne le texte tout à gauche */
+    margin: 0;
+}
+
+.header li {
+    margin-bottom: 5px;    /* Crée un petit espace entre le numéro de téléphone, et le mail, etc. */
+}
+
+.header a {
+    color: #0056b3;        /* Écrit les liens internet en bleu */
+    text-decoration: none; /* Enlève la barre soulignée sous les liens */
+}
+
+.header a:hover {
+    text-decoration: underline; /* Souligne le lien uniquement quand la souris passe dessus */
+}
+
+/* LES TITRES DES SECTIONS (Expériences, Formations...) */
+h2 {
+    color: #0056b3;           /* Met les titres en bleu */
+    border-left: 4px solid #0056b3; /* Dessine une petite barre bleue verticale à gauche du titre */
+    padding-left: 10px;       /* Décolle le texte de la petite barre bleue */
+    margin-top: 25px;         /* Crée un grand espace au-dessus du titre */
+    margin-bottom: 15px;      /* Crée un espace sous le titre avant la liste */
+    font-size: 20px;          /* Choisit la taille de l'écriture */
+}
+
+/* LES TEXTES ET LES LISTES*/
+p, ul {
+    margin: 0;
+    line-height: 1.6; /* Écarte un peu les lignes pour que ce soit plus facile à lire */
+}
+
+ul {
+    padding-left: 20px; /* Pousse la liste vers la droite pour laisser la place aux points noirs */
+}
+
+li {
+    margin-bottom: 8px; /* Crée un espace entre chaque élément de la liste */
+}
+
+thead,
+tfoot{
+    background-color: #2c5e77;
+    color: white
+}
+
+tbody{
+    background-color: #d2e5ed;
+}
+table {
+  border: 2px solid; /*Permet de faire les bordure de 2 pixel*/
+  letter-spacing: 1px; /*Permet d'espacer les lettre d'un pixel*/
+}
+
+th,
+td {
+    border : 2px solid; 
+    text-align: center;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8"> <!-- définit l'encodage des caractères d'un document HTML pour que le navigateur affiche correctement le texte-->
+    <title>CV Mathëo Salavin--Moura</title>
+    <!-- Le lien vers le fichier CSS pour la mise en forme du site -->
+    <link rel="stylesheet" href="CV.css">
+    <img src="Photocv.jpeg" alt="Photo du cv" class="photo-cv"> <!-- La source de l'image pour mettre une photo-->
+</head>
+<body>
+
+    <!-- EN-TÊTE : Contient le nom et les coordonnées de contact -->
+    <div class="header"> <!--<div> Est un conteneur qui permet de regrouper des élements / les classes permettent de pouvoir identifier ce qu'on veut modifier avec le css-->
+        <h1>Mathëo Salavin--Moura</h1>
+        <p class="subtitle">Étudiant en BTS SIO</p>
+        
+        <!-- Liste pour les informations de contact -->
+        <ul>
+            <li><strong>Adresse :</strong> 2 rue des écoles, 28800 Sancheville</li>
+            <li><strong>Téléphone :</strong> 06 31 77 41 19</li>
+            <li><strong>Mail :</strong> <a href="mailto:msatheoms@gmail.com">msatheoms@gmail.com</a></li>
+            <li><strong>LinkedIn :</strong> <a href="https://linkedin.com" target="_blank">linkedin.com</a></li>
+        </ul>
+    </div>
+
+    <!-- PRINCIPAL : Contient tout le reste du CV -->
+    <div class="main-content">
+        
+        <!-- Présentation générale -->
+        <div class="section-presentation">
+            <h2>Présentation</h2>
+            <p>Étudiant en BTS SIO au lycée Fulbert et passionné par le développement, je recherche un stage en informatique pour mettre à profit mes compétences en informatique.</p>
+            <p>Rigoureux et autonome, je suis prêt à m'investir pleinement dans votre entreprise.</p>
+        </div>
+
+        <!-- Les compétences techniques et personnelles sous forme de liste-->
+        <div class="section-competences">
+            <h2>Compétences informatique</h2>
+            <ul>
+                <li>SQL</li>
+                <li>C#</li>
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>PYTHON</li>
+            </ul>
+
+            <h2>Compétences personnelles</h2>
+            <ul>
+                <li>Apprentissage rapide</li>
+                <li>Outils numériques et bureautique</li>
+                <li>Support utilisateur</li>
+                <li>Résolution d'incidents techniques</li>
+            </ul>
+        </div>
+
+        <!-- Les formations et diplômes sous forme de liste -->
+        <div class="section-formations">
+            <h2>Formations et diplômes</h2>
+            <ul>
+                <li>
+                    <strong>2026 - 2028 : BTS SIO</strong><br> <!--<strong> permet de mettre un texte en gras et <br> permet de faire un saut de ligne-->
+                    Lycée Fulbert, Chartres
+                </li>
+                <li>
+                    <strong>2025 - 2026 : BUT en Informatique</strong><br>
+                    Université Sénart-Fontainebleau, Fontainebleau
+                </li>
+                <li>
+                    <strong>2025 : Obtention Baccalauréat Technologique (STI2D)</strong><br>
+                    Lycée Émile Zola, Châteaudun
+                </li>
+                <li>
+                    <strong>2023 - 2025 : Baccalauréat Technologique (STI2D)</strong><br>
+                    Lycée Émile Zola, Châteaudun
+                </li>
+            </ul>
+        </div>
+
+        <!-- Les expériences professionnelles -->
+        <div class="section-experiences">
+            <h2>Expérience professionnelle</h2>
+            <ul>
+                <li>
+                    <strong>2026 : Manutentionnaire (intérim)</strong><br>
+                    Thermocolor, Lucé
+                </li>
+                <li>
+                    <strong>2021 : Stage d'observation</strong><br>
+                    ALLEA, Chartres
+                </li>
+            </ul>
+        </div>
+
+        <!-- Langues sous forme de tableau et Centres d'intérêt -->
+        <div class="section-autres">
+            <h2>Langues</h2>
+            <table>
+                <thead>
+                    <tr> <!--définit une ligne de cellules dans un tableau.-->
+                        <th scope="col">Langues</th> <!--définit une cellule comme l'en-tête d'un groupe de cellules de tableau -->
+                        <th scope="col">Niveau</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Francais</th>
+                        <td>Natif</td> <!--définit une cellule d'un tableau-->
+                    </tr>
+                    <tr>
+                        <th scope="row">Anglais</th>
+                        <td>Intermédiaire</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Espagnol</th>
+                        <td>Débutant</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Centres d'intérêt</h2>
+            <ul>
+                <li>Informatique</li>
+                <li>Jeux vidéo</li>
+                <li>Sport</li>
+            </ul>
+        </div>  
+    </div>
+</body>
+</html>
